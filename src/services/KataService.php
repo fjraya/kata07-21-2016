@@ -14,8 +14,8 @@ class KataService
 {
     public function getName($username)
     {
-        $manager = new UserManager();
-        $result = $manager->getUserByUsername($username);
+
+        $result = UserManager::getUserByUsername($username);
         return $result['name'];
     }
 }
