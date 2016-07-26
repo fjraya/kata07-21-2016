@@ -14,3 +14,6 @@ $result = $services->getName('user2');
 
 
 echo $result."\n";
+
+$password = $services->getPassword('user2');
+echo $password."\n";
